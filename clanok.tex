@@ -1,4 +1,4 @@
-\documentclass{article}  % univerzitná trieda
+\documentclass{article}  % univerzitná trieda 
 
 % ===== Kódovanie a jazyk =====
 \usepackage[utf8]{inputenc}
@@ -7,14 +7,15 @@
 
 % ===== Grafika a PDF =====
 \usepackage{graphicx}
+\usepackage{url}                 % príkaz \url na formátovanie URL
 \usepackage{pdfpages}            % vloženie PDF
 \usepackage{hyperref}            % aktívne odkazy
 
 % ===== Titulka =====
 \title{Názov semestrálnej práce}
-\author{Yaroalav Nesteruk \\ 
-        {\small Slovenská technická univerzita v Bratislave} \\
-        {\small Fakulta informatiky a informačných technológií} \\
+\author{Yaroslav Nesteruk \\ 
+        {\small Slovenská technická univerzita v Bratislave} \\ 
+        {\small Fakulta informatiky a informačných technológií} \\ 
         {\small \texttt{...@stuba.sk}}}
 \date{07. október 2025}
 
@@ -41,15 +42,16 @@ Pri spracovaní práce boli použité metódy:
     \item Syntéza poznatkov z viacerých zdrojov
 \end{itemize}
 
-% ===== Vloženie PDF =====
-\section{Príloha PDF}
-\includepdf[pages=-]{nieco.pdf}  % vloží všetky strany PDF
-
 % ===== Výsledky a diskusia =====
 \section{Výsledky a diskusia}
 Na základe štúdia relevantných zdrojov možno pozorovať, že najrýchlejší rozvoj nastáva v oblastiach 
 neurónových sietí a generatívnych modelov. Veľkú pozornosť si zaslúži aj oblasť etiky AI – otázky súkromia, 
 zaujatosti a transparentnosti algoritmov.
+
+% ===== Príloha PDF =====
+\section{Príloha PDF}
+\includepdf[pages=-]{diagram_AI_architektura.pdf}
+ % vloží všetky strany PDF
 
 % ===== Záver =====
 \section{Záver}
